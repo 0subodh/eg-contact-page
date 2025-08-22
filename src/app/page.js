@@ -1,12 +1,10 @@
-import ContactCard from "./Contact/ContactCard"
-
-
+import ContactCard from "../components/Contact/ContactCard";
 
 const page = () => {
   return (
     <>
       <ContactCard />
     </>
-  )
-}
-export default page
+  );
+};
+export default page;

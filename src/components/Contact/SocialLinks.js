@@ -4,7 +4,6 @@ const SocialLinks = () => {
   return (
     <div className="max-w-[1536px] mx-auto">
       <div className="flex items-center  mt-5">
-
         {/* Email Section */}
         <div className="flex items-center">
           <Image
@@ -22,12 +21,11 @@ const SocialLinks = () => {
 
         {/* Social Icons */}
         <div className="flex items-center space-x-6 ml-[80px]">
-          <Image src="/fb.svg" alt="Facebook" width={26} height={26} />
+          <Image src="/fb.svg" alt="Facebook" width={31} height={20} />
           <Image src="/twitter.svg" alt="Twitter" width={23} height={19} />
           <Image src="/insta.svg" alt="Instagram" width={20} height={20} />
           <Image src="/youtube.svg" alt="YouTube" width={24} height={17} />
         </div>
-
       </div>
     </div>
   );
